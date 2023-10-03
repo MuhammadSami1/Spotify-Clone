@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li class="logo">
+                <img  src="logo.png" alt="Spotify">
+                Spotify
+            </li>                    
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Container -->
+    <div class="container">
+        <div class="songlist">
+          <H1>Best of NCS - No Copyright Sounds</H1>
+          <div class="songitemcontainer">
+             <div class="songitem">
+                 <img src="covers/1.jpg" alt="1">
+                 <span class="songname">
+                     Warriyo - Mortals [NCS Release]
+                 </span>
+                  <span class="songlistplay">
+                     <span class="timestamp">
+                         3:50
+                         <i class="fa-sharp fa-solid fa-circle-play"></i>
+                     </span>
+                    </span>
+                </div>
+          </div>
+          
+         
+        </div>
+        
+        <div class="songbanner"></div>
+      
+    </div>
+
+    <!-- bottom -->
+    <div class="bottom">
+      <input min="0" max="100" id="myprogressbar" type="range" name="range">
+      <!-- icons -->
+      <div class="icons">
+         <i class="fa-solid fa-3x fa-backward-step"></i>
+         <i class="fa-sharp fa-3x fa-solid fa-circle-play"></i>
+         <i class="fa-solid fa-3x fa-forward-step"></i>
+      </div>
+    </div>
+</body>
+</html>
