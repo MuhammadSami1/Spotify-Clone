@@ -102,6 +102,7 @@ a{
     flex-direction: column;
 
 }
+
 .icons i{
     margin-top: 12px;
     padding-left: 6px;
@@ -110,6 +111,7 @@ a{
 
 #myprogressbar{
     width: 80vw;
+    cursor: pointer;
 }
 .songinfo img{
     width: 42px;
@@ -119,4 +121,5 @@ a{
 .songinfo{
     position: absolute;
     left: 10vw;
+    font-family: 'Ubuntu', sans-serif;
 }
